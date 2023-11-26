@@ -1,0 +1,37 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+/* Themed Button component */
+.themedButton{
+  background-color: #872991;
+  border: 2px solid #872991 !important;
+  color: #fff;
+}
+.themedButton:hover{
+  background-color: #ffffff;
+  border: 2px solid #872991 !important;
+  color: #872991;
+}
+
+/* Quiz Card component */
+.quizCard{
+  background-color: #fff;
+}
+.quizCard:hover{
+  background-color:#933f9c;
+  color: #e6e1e1;
+}
+.quizCard:hover button{
+background-color: #fff;
+color: #933f9c;
+}
+
