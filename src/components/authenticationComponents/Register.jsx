@@ -128,7 +128,7 @@ export default function Register() {
                         onChange={formik.handleChange}
                         value={formik.values.name}
                         type="text"
-                        className="form-control rounded-0 "
+                        className="form-control rounded-0  "
                         id="name"
                         name="name"
                       />
@@ -150,7 +150,7 @@ export default function Register() {
                         onChange={formik.handleChange}
                         value={formik.values.nationalID}
                         type="text"
-                        className="form-control rounded-0"
+                        className="form-control rounded-0 "
                         id="nationalID"
                         name="nationalID"
                       />
@@ -196,7 +196,7 @@ export default function Register() {
                       onChange={formik.handleChange}
                       value={formik.values.phone}
                       type="tel"
-                      className="form-control rounded-0"
+                      className="form-control rounded-0 "
                       id="phone"
                       name="phone"
                     />
@@ -239,7 +239,7 @@ export default function Register() {
                         Experience Level
                       </label>
                       <select
-                        className="form-select rounded-0"
+                        className="form-select rounded-0 "
                         name="experienceLevel"
                         id="experienceLevel"
                         onBlur={formik.handleBlur}
@@ -267,7 +267,7 @@ export default function Register() {
                       onChange={formik.handleChange}
                       value={formik.values.email}
                       type="email"
-                      className="form-control rounded-0"
+                      className="form-control rounded-0 "
                       id="email"
                       name="email"
                     />
@@ -285,7 +285,7 @@ export default function Register() {
                       onChange={formik.handleChange}
                       value={formik.values.password}
                       type="password"
-                      className="form-control rounded-0"
+                      className="form-control rounded-0 "
                       id="password"
                       name="password"
                     />
@@ -312,7 +312,7 @@ export default function Register() {
                   ) : (
                     <button
                       type="submit"
-                      className=" btn btn-warning rounded-0 w-100 py-2 text-dark fs-bold"
+                      className=" btn btn-warning rounded-0 w-100 py-2 text-dark fs-bold shadow"
                     >
                       Sign Up
                     </button>

@@ -117,13 +117,13 @@ export default function Login() {
                                   <i className="fa-solid fa-spinner fa-spin"></i>
                               </button>
                               ) : (
-                              <button type="submit" className="btn btn-warning w-100 py-2 text-dark rounded-0">
+                              <button type="submit" className="btn btn-warning w-100 py-2 text-dark rounded-0 shadow">
                                   Login
                               </button>
                               )}
                 </div>
                 <div className="haventAccount">
-                    <button className="btn btn-warning w-100 py-2 text-dark rounded-0">
+                    <button className="btn btn-warning w-100 py-2 text-dark rounded-0 shadow">
                       <NavLink className="nav-link" to={"/register"}>
                         Sign up
                       </NavLink>
