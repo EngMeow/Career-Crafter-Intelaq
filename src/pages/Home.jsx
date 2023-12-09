@@ -25,7 +25,7 @@ function Home() {
         <Link to={"/login"} 
         className="btn btn-warning px-5 p-3 rounded-0 shadow" 
         role="button">Join Us
-                  </Link>
+        </Link>
       </div>
     </div>
   </nav>
@@ -39,7 +39,7 @@ function Home() {
             <p className="fs-5 text-muted mb-5">Find a job tailored for you</p>
             <form className="d-flex justify-content-center flex-wrap" method="post" data-bs-theme="light">
               <div className="shadow-lg mb-3 col-md-8"><input className="form-control p-3 rounded-0" type="text" name="text" placeholder="Search for Jobs in Egypt" /></div>
-              <div className="shadow-lg mb-3"><button className="btn btn-outline-warning p-3 rounded-0 shadow" type="submit">Search </button></div>
+              <div className="shadow-lg mb-3"><button className="btn btn-warning p-3 rounded-0" type="submit">Search </button></div>
             </form>
           </div>
         </div>
@@ -56,8 +56,8 @@ function Home() {
         <div style={{maxWidth: 350}}>
           <h1 className="display-6 fw-bold mb-4">Everything your need to find&nbsp;<span className="text-warning">Work</span>.</h1>
           <p className="my-4 fw-light">Join our family now</p>
-          <NavLink className="btn btn-warning rounded-0 btn-lg me-2 py-3 px-5" to='./login'>Log In</NavLink>
-          <NavLink className="btn btn-warning rounded-0 btn-lg me-2 py-3 px-5" to='./register'>Sign up</NavLink>
+          <NavLink className="btn btn-warning rounded-0 btn-lg me-2 py-3 px-5 shadow" to='./login'>Log In</NavLink>
+          <NavLink className="btn btn-warning rounded-0 btn-lg me-2 py-3 px-5 shadow" to='./register'>Sign up</NavLink>
         </div>
       </div>
       <div className="col-md-6">
@@ -80,7 +80,7 @@ function Home() {
       <div className="row row-cols-2 row-cols-md-4">
         <div className="col-12 col-md-3">
           <div className="fw-bold d-flex align-items-center mb-2">
-            <span className=" px-4"><strong>Career<span className="text-warning">Crafter</span></strong></span>
+            <span className="h3 px-4"><strong>Career<span className="text-warning">Crafter</span></strong></span>
           </div>
           <p className="text-muted">Get your best job for best profile</p>
         </div>
